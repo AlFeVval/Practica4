@@ -54,23 +54,7 @@
 
 #define _XTAL_FREQ  4000000ul
 
-typedef enum state
-{
-    State_1,
-    State_2,
-    State_3,
-    State_4,
-    State_5,
-    State_6,
-    State_7,
-    State_8,
-    State_9,
-    State_10,
-    State_11,
-    State_12,
-}FSM_State;
-
-FSM_State Timer2_State = State_1;
+int Timer0_Counter;
 
 // TODO Insert declarations or function prototypes (right here) to leverage 
 // live documentation

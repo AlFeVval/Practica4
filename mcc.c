@@ -85,7 +85,7 @@ void SYSTEM_Initialize(void)
     //SPI1_Initialize();
     //ADC_Initialize();
     //TMR1_Initialize();
-    //TMR0_Initialize();
+    TMR0_Initialize();
     //EUSART1_Initialize();
     //PWM2_Initialize();
     TMR2_Initialize();
